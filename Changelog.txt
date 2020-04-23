@@ -1,0 +1,198 @@
+[1.3.3.20]
+[NEW] HW accelerated rendering 
+[NEW] Bookmarks functions
+[NEW] Pages merging in context menu
+[NEW] Eraser support as button 9 (preliminar)
+[NEW] DCS briefing loading (preliminar)
+[FIX] Wintab crashing on relative buttons configuration change
+[FIX] DPI and image loading
+[FIX] Oculus not making KB transparent 
+[CHG] VR Refresh limited to 30 fps
+[CHG] VR Refresh performance improvements
+[CHG] WinTab will behave like 1.3.3.08 in a single tablet configuration
+
+[1.3.3.16]
+[FIX] Image import, removed test image saved to HD
+
+[1.3.3.15]
+[FIX] Wintab doesn't register strokes starting with light pressure on tip
+[FIX] Tablet events routing causing multiple actions and wrong target kneeboard
+[FIX] Image aspect ratio
+[FIX] VR Toggle not properly restoring
+[CHG] VR Toggle global effect
+[NEW] Oculus: option to disable sim launch on profile load
+[NEW] Support for high res images (do not scale down to VRK resolution)
+[NEW] Maximum zoom increased to 16x
+
+[1.3.3.14]
+[NEW] 64 bit application
+[NEW] Multiple Pen Tablet
+[FIX] Zoom Reset was still called Zoom Out
+[FIX] Stick POV
+[CHG] New Input system (buttons and tablet)
+
+[1.3.3.08]
+[NEW] Leap Motion hands emulation for OculusVR
+[NEW] Leap Motion driver installer for SteamVR
+[FIX] WinTab pen tip sensitivity
+
+[1.3.3.07]
+[NEW] VR Controller positioning of kneeboards
+[NEW] Mode to change Active kneeboard switching behaviour
+[CHG] Buttons for manual positioning of kneeboards
+
+[1.3.3.06]
+[FIX] Disabled kneeboards becomes active
+
+[1.3.3.05]
+[NEW] Option to disable stroke rounding
+[FIX] Cursor to stroke offset
+[CHG] Better stylus event management
+[CHG] Configuration cleanup
+[NEW] Checkbox to disable automatic switch of active kneeboard
+
+[1.3.3.04]
+[FIX] Unable to write after first switch of active kneeboard
+[FIX] Copy from KB1
+
+[1.3.3.03]
+[NEW] Oculus: option to drop overlay depth information from VR world (DCS 2.5.6 hiding VRK)
+[FIX] Deadlock when restarting VR and active KB is changed
+[FIX] KB2 not resetting to proper angle
+[FIX] Double function events received by panels
+[FIX] Pen tip function not property reset when switching active KB
+
+[1.3.3.01]
+[FIX] Double Kneeboard bightness
+
+[1.3.1.02]
+[NEW] OculusVR check if DCS_Updater.exe has been selected and replace with DCS.exe
+[NEW] Page numbers 
+[FIX] Hangup/crash when applying/changing configuration
+[FIX] DCS loading of campaign mission
+[FIX] Aspect ratio matching and controls tree cleanup
+[CHG] Tablet rotation extended to WinTab
+
+[1.3.1.01]
+[NEW] Double VR kneeboard
+[NEW] OculusVR Hands emulation for Leapmotion (preliminar)
+[CHG] Server/client removed
+[FIX] OculusVR performance improvements
+
+[1.2.3.10]
+[FIX] Gesture crashing on a double stylus_up event
+[FIX] OculusVR visibility
+[NEW] OculusVR --force_enable_VR option checkbox
+
+[1.2.3.8]
+[NEW] Profiles
+[NEW] Custom driver auto reconnection
+[FIX] DCS hook installation doesn't create Hooks directory if missing
+[NEW] Check if AV removed OVR launcher files
+[CHG] Improved pen tip handling for WinTab
+[FIX] Custom Driver proper handling of proximity and air movement
+[NEW] New pen cursor code
+
+[1.2.3.5]
+[NEW] OculusVR Native support
+[FIX] Crash when an input device is lost during poll
+[NEW] Context menus to remove page and tab strokes (right click on the content)
+[NEW] Save asks if strokes have to be saved
+[NEW] Reset to default position button added in configuration
+[CHG] Quick Start guide refreshed
+[NEW] Quick Start guide will open automatically after install
+[NEW] Quick Start guide link created beside launch link
+[NEW] Strokes management
+[CHG] Improved pen tip handling for custom driver
+[NEW] Changed VR enable flag int VR mode (OculusVR, SteamVR, Off)
+[NEW] Flag to invert Draw/Gesture behavior
+[CHG] Added white border to cursor
+
+[1.1.3.19]
+[NEW] Custom Focus Logic
+[NEW] Pan & Zoom functions
+
+[1.1.3.18]
+[FIX] try to fix hang on start
+
+[1.1.3.17]
+[FIX] DirectInput slow/missing events
+[FIX] Config window crashing on open
+[FIX] Brightness not applied to VR
+
+[1.1.3.16]
+[NEW] Support for keyboard and joystick/HID control
+[NEW] Brightness control
+
+[1.1.3.15]
+[NEW] DCS: hooks to detect mission loading and aircraft type
+
+[1.1.3.14]
+[FIX] Mousewheel not interacting with zoom/pan anymore 
+[FIX] Default Alpha changing Default Width
+[CHG] Supersampling revisited to improve image quality at low zoom
+[CHG] VRK window will not stay topmost anymore
+[CHG] Config window will not automatically reset seated position (button added)
+[NEW] Bookmarks 
+[NEW] Configurable tabs and bookmarks location 
+[NEW] Config Apply function
+[NEW] Load directory and DCS miz files
+[NEW] Automatic load of DCS multiplayer session Kneeboard (preliminar)
+[NEW] Automatic restore of last layout (save on close)
+
+[1.1.3.11]
+[NEW] Custom driver for Huion pen tablets
+[NEW] Zoom Out function
+[NEW] Configurable delay in transition from focused to un-focused mode
+[NEW] Clickable page change buttons
+
+[1.1.3.9]
+[CHG] Removed buttons functions for switching Note Mode 
+[FIX] Windows width calculation should not happen in maximized mode
+[FIX] Crash on startup if SteamVR is installed but no HMD connected
+[NEW] WinTab support for tablet not complying with relative buttons mode
+[CHG] Dynamic cursor size switching
+[NEW] UcLogic (Huion, XP-Pen) custom driver 
+[NEW] VR on/off functions
+[NEW] VR sizing mode switch function
+
+[1.1.3.5]
+[CHG] Release version (no expiration)
+
+[1.1.1.4]
+[CHG] WinTab mode does not interact anymore with mouse
+[CHG] Focused detection refactored
+[FIX] Configuration will not be lost every version change
+[NEW] Loading vrkl from commandline
+[NEW] Only one instance allowed
+[CHG] OpenVR API upgraded to 1.6.10
+
+[1.1.1.2]
+[NEW] WinTab support (Windows stylus in standalone mode)
+[NEW] Form tab added
+[NEW] Programmable buttons
+[CHG] Web tab removed
+[CHG] Graphics improvements
+[FIX] Memory leak fixed
+[FIX] VR cursor offset
+[FIX] Taps not detected
+
+[1.0.1.37]
+[FIX] Wrong pen or no pen selected
+[FIX] Temporary strkes drawn on swipe and pinch
+[FIX] Page add and delete now working in client/server
+[FIX] Process hung on close
+[CHG] Client/Server auto-discovery instead of manual IP input
+[FIX] Deleting the last page causes a crash
+
+[1.0.1.36]
+First public release
+
+
+===============================================================================
+=                        KNOWN BUGS AND LIMITATIONS                           =
+===============================================================================
+OculusVR Mode does not work with Steam version of DCS
+Kneeboard is not visible from the bottom side in SteamVR. Pay attention to rotations when re-positioning the thing, if the kneeboard disappears, put back the default values.
+XP-Pen devices are not supported by Custom Driver
+DCS: Automatic selection of aircraft does not work in single player mode
