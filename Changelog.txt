@@ -1,3 +1,22 @@
+[1.4.3.07]
+[NEW] PDF rendering on the fly and caching
+[NEW] OculusVR 32 bit support (preliminar)
+[NEW] Possibility to move toolbar to the top of the kneeboard
+[NEW] Next Tab/Page with Cycle (back to first)
+[NEW] Option to disable 2nd kneeboard
+[NEW] Erase page strokes button
+[NEW] Protect with erase
+[NEW] Calculator Control
+[FIX] Bookmarks sliding when a page is deleted
+[FIX] dragging pen over Text tab causes VRK to crash
+[FIX] support for DCS relative miz path (Issue #11)
+[FIX] SteamVR memory leak
+[FIX] Image aspect ratio
+[CHG] get rid of DPI scaling
+[CHG] VRK executable back to 32 bit 
+[CHG] Fixed application and control dimensions
+[CHG] Extra button to save some space in the toolbar
+
 [1.3.3.22]
 [FIX] SteamVR flickering
 [FIX] Storkes offet when zooming
