@@ -1,3 +1,10 @@
+[1.4.3.09]
+[FIX] Missing Cursor in calculator
+[FIX] AMVI logo orientation
+[FIX] HW rendering resource memory leak
+[FIX] Pen offset in calculator
+[FIX] Image AR comparison against kb AR
+
 [1.4.3.07]
 [NEW] PDF rendering on the fly and caching
 [NEW] OculusVR 32 bit support (preliminar)
