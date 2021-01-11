@@ -1,3 +1,6 @@
+[1.4.3.10]
+[FIX] Crash when trying to load non image files from DCS MIZ
+
 [1.4.3.09]
 [FIX] Missing Cursor in calculator
 [FIX] AMVI logo orientation
